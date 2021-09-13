@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+
+<suite name="Global">
+
+<test name="Get Public repositories">
+
+<classes>
+    <class name="GetListOfPublicRepo"></class>
+</classes>
+
+</test>
+
+    <test name="Creating Pull Request">
+
+        <classes>
+            <class name="CreatePullRequest"></class>
+        </classes>
+
+
+    </test>
+
+
+</suite>
